@@ -1,0 +1,37 @@
+#aa{
+    width: 200px;
+    height: 30px;
+}
+
+#bb{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+}
+
+#cc{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,minmax(100px,auto));
+    gap: 65px;
+    background-color: rgb(250, 250, 250);
+}
+
+#jj{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: white;
+}
+header{
+    height: 50vh;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqujwzJ9bgNNXWXf0W2coYieI5ILEE7CM5dg&usqp=CAU'); 
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+}
+#select-movie{
+    margin-top: 15px;
+    margin-left: 5px;
+}
